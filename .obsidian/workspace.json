@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "24fc7419b351cf36",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0847ab58e235423",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a3908e1d366377e",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "content/nature/Z30_4173.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "Z30_4173"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3fc86a4b138a7690",
+    "type": "split",
+    "children": [
+      {
+        "id": "92717acdb1cae0b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7abca119f72ead1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "647a379a851931cc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e3f79fd88afad84f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 295.5003433227539
+  },
+  "right": {
+    "id": "ad67268bd14b13d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c694a88712ba75f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0ef28db7e048f6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/humanities/Z30_4323.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Z30_4323 的反向链接列表"
+            }
+          },
+          {
+            "id": "ba836fb06bf9bb89",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/humanities/Z30_4323.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Z30_4323 的出链列表"
+            }
+          },
+          {
+            "id": "34f02a26615981b8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e7cee885c7d974b6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/humanities/Z30_4323.jpg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Z30_4323 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "7abca119f72ead1d",
+  "lastOpenFiles": [
+    "public/life/Z30_4259_hu02ff446b8cf4d64586d1a2b92c133061_480723_800x800_fit_q75_catmullrom.jpg",
+    "public/life/Z30_4259_hu02ff446b8cf4d64586d1a2b92c133061_480723_1600x1600_fit_q75_catmullrom.jpg",
+    "resources/_gen/images/life/Z30_4259_hu02ff446b8cf4d64586d1a2b92c133061_480723_1600x1600_fit_q75_catmullrom.jpg",
+    "resources/_gen/images/life/Z30_4259_hu02ff446b8cf4d64586d1a2b92c133061_480723_800x800_fit_q75_catmullrom.jpg",
+    "resources/_gen/images/life/Z30_4259_15878288819215615525.json",
+    "public/life/Z30_4259.jpg",
+    "content/life/Z30_4259.jpg",
+    "content/humanities/Z30_4323.jpg",
+    "content/humanities/Z30_4344.jpg",
+    "content/humanities/Z30_4383.jpg",
+    "content/humanities/IMG_9792.jpg",
+    "content/humanities/IMG_9782.jpg",
+    "private/index.md",
+    "_index.md",
+    "about.md",
+    "imprint.md",
+    "life/IMG_0582 1.heic",
+    "life/IMG_0583 1.heic",
+    "life/IMG_0549.heic",
+    "life/IMG_0554 1.heic",
+    "life/IMG_0553 1.heic",
+    "life/IMG_0572 1.heic",
+    "life/IMG_0573 2 1.heic",
+    "life/IMG_0528.heic",
+    "life/IMG_0532.heic",
+    "portrait/index.md",
+    "People/index.md",
+    "life/index.md",
+    "animals/index.md",
+    "post/People/index.md",
+    "nature/index.md",
+    "humanities/index.md"
+  ]
+}
