@@ -1,43 +1,35 @@
-<div class="mb-16 mt-8 sm:px-6">
-  <div class="fj-gallery" style="visibility: hidden;">
-    {{ $photos := sort (.Resources.ByType "image") (index .Params "sort_by" | default "Name") (.Params.sort_order | default "asc") }}
+{{/* SAFE VERSION - NO EXIF / NO FIT / NO RECURSION */}}
 
-    {{ range $index, $original := $photos }}
-      {{ if eq $original.ResourceType "image" }}
+<div class="gallery">
+  {{ range .Resources.ByType "image" }}
+    {{ $img := . }}
 
-        {{/* 只允许 Hugo 稳定支持的格式 */}}
-        {{ $ext := lower $original.MediaType.SubType }}
-        {{ if in (slice "jpg" "jpeg" "png" "webp" "gif") $ext }}
+    <figure class="gallery-item">
+      <a href="{{ $img.RelPermalink }}" target="_blank">
+        <img src="{{ $img.RelPermalink }}" loading="lazy">
+      </a>
 
-          {{/* 生成缩略图与大图，如果失败则跳过 */}}
-          {{ $thumb := $original.Resize "800x webp" }}
-          {{ $full := $original.Resize "1600x webp" }}
-
-          {{ if and $thumb $full }}
-            <a
-              class="fj-gallery-item cursor-zoom-in"
-              href="{{ $original.RelPermalink }}"
-              data-pswp-src="{{ $full.RelPermalink }}"
-              data-pswp-width="{{ $full.Width }}"
-              data-pswp-height="{{ $full.Height }}"
-              itemscope
-              itemtype="https://schema.org/ImageObject"
-              style="aspect-ratio: {{ $thumb.Width }} / {{ $thumb.Height }}"
-            >
-              <img
-                class="lazyload"
-                width="{{ $thumb.Width }}"
-                height="{{ $thumb.Height }}"
-                data-src="{{ $thumb.RelPermalink }}"
-                alt=""
-              />
-              <meta itemprop="contentUrl" content="{{ $original.RelPermalink }}" />
-            </a>
-          {{ end }}
-
-        {{ end }}
-
+      {{ with $img.Title }}
+        <figcaption>{{ . }}</figcaption>
       {{ end }}
-    {{ end }}
-  </div>
+    </figure>
+
+  {{ end }}
 </div>
+
+<style>
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+  gap:10px
+}
+.gallery img{
+  width:100%;
+  height:auto;
+  border-radius:6px
+}
+figcaption{
+  font-size:12px;
+  opacity:.7;
+}
+</style>
